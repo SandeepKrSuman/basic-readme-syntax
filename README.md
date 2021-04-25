@@ -40,7 +40,7 @@ Since it is quite hard to see trailing whitespaces in an editor, HTML `<br>` tag
 <br>
 
 # Emphasis
-1. ### BOLD
+1. **BOLD**  
 Add two asterisks *(more conventionally used)* or underscores before and after a text to make it bold. To make some characters of a text bold in the middle, use two asterisks without spaces before and after the characters (using underscore does not work in this case. So it is a good practise to use asterisks instead of underscore everytime to make a text bold).
   
 | Example | Rendered as |
@@ -49,7 +49,7 @@ Add two asterisks *(more conventionally used)* or underscores before and after a
 | `This word is __also Bold__` | This word is __also Bold__ |
 | `Basic**Readme**Syntax` | Basic**Readme**Syntax |
   
-2. ### ITALIC
+2. **ITALIC**  
 To italicize a text use single asterisk or underscore. Use single asterisk (and not underscore) to italicize a middle text.
   
 | Example | Rendered as |
@@ -58,14 +58,14 @@ To italicize a text use single asterisk or underscore. Use single asterisk (and 
 | `This word is _also Italic_` | This word is _also italic_ |
 | `Basic*Readme*Syntax` | Basic*Readme*Syntax |
   
-3. ### STRIKETHROUGH
+3. **STRIKETHROUGH**  
 For strikingthrough a text use two tilde symbols before and after a text.  
   
 | Example | Rendered as |
 | --- | --- |
 | `This word is ~~strikedthrough~~` | This word is ~~strikedthrough~~ |
   
-4. ### Nested Emphasis
+4. **Nested Emphasis**  
   
 | Example | Rendered as |
 | --- | --- |
@@ -165,3 +165,64 @@ Relative links can also be used :
 | `[README](./README.md)` | [README](./README.md) |
   
 <br>
+
+# Images
+Represent an image like `![alt-text](image-link)`.  
+Relative path of the image can also be used as image link: `![sun-image](./images/sun.jpg)`  
+  
+The following HTML `<img>` tag is also legal:  
+```
+<img src="./images/sun.jpg" alt="sun-image" style="float: left; margin-right: 15px;" />
+```
+  
+<br>
+
+# Lists
+1. **Unordered Lists**  
+To create an unordered list, add a dash`(-)` or an asterisk`(*)` or a plush sign `(+)` and a space in front of the text.  
+Indent one or more items to create nested list.  
+```
+- First item
+- Second item
+- Third item
+```
+The above example is rendered as:  
+- First item
+- Second item
+- Third item
+  
+```
+- first item
+- second item
+  - third item
+  - fourth item
+- fifth item
+```
+The above example is rendered as:  
+- first item
+- second item
+  - third item
+  - fourth item
+- fifth item
+  
+  
+2. **Ordered Lists**  
+To create an ordered list use number and dot (or period) before text.  
+Indent one or more items to create nested list.  
+```
+1. first item
+2. second item
+    1. nested one
+    2. nested two
+3. third item
+```
+The above example is rendered as:  
+1. first item
+2. second item
+    1. nested one
+    2. nested two
+3. third item
+  
+  
+<br>
+
