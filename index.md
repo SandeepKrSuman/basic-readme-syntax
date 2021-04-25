@@ -270,6 +270,7 @@ The above example is rendered as:
 2. **Ordered Lists**  
 To create an ordered list use number and dot (or period) before text.  
 Indent one or more items to create nested list.  
+
 ```
 1. first item
 2. second item
@@ -277,7 +278,9 @@ Indent one or more items to create nested list.
     2. nested two
 3. third item
 ```
-The above example is rendered as:  
+  
+The above example is rendered as: 
+  
 1. first item
 2. second item
     1. nested one
