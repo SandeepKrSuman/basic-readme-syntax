@@ -24,6 +24,7 @@ Here I have listed some basic syntax which will help you to write your first REA
     - Ordered list
 - [Task Lists](#task-lists)
 - [Escaping Characters](#escaping-characters)
+- [Emojis](#emojis)
 - [Tables](#tables)
   
   
@@ -315,6 +316,22 @@ The above example is rendered as:
   
 <br>
 
+# Emojis
+One way to use emojis in the readme file is to simply copy and paste them. The other way is to use *emoji shortcuts*.  
+```
+😊😂  
+:heart_eyes:  
+:star: this repo
+```
+The above example is rendered as:  
+😊😂  
+:heart_eyes:  
+:star: this repo
+  
+  
+<br>
+
+
 # Tables
 Take a look at the following examples to create a table:  
 
@@ -335,7 +352,7 @@ The above example is rendered as:
   
 <br>
 
-# Resource
+### Resource
 If you wish to play aorund with what you have learned so far you can try rendering the markdown online on [Dillinger](https://dillinger.io/). It is absolutely free platform.  
   
   
