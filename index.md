@@ -33,14 +33,23 @@ Here I have listed some basic syntax which will help you to write your first REA
 # Headings
 To create a heading add a hash sign - `#` (*also known as number sign, or pound sign, etc.*) followed by a space before your heading text. The number of `#` used before the heading text determines the level of heading. Heading level 1 i.e. h1 requires single `#` sign and goes upto heading level 6 i.e. h6 which requires use of six `#` signs.  
   
-| Example | Rendered as |
-| ------ | ----------- |
-| # Heading h1 | <h1>Heading h1</h1> |
-| ## Heading h2 | <h2>Heading h2</h2> |
-| ### Heading h3 | <h3>Heading h3</h3> |
-| #### Heading h4 | <h4>Heading h4</h4> |
-| ##### Heading h5 | <h5>Heading h5</h5> |
-| ###### Heading h6 | <h6>Heading h6</h6> |
+```
+# Heading h1
+## Heading h2
+### Heading h3
+#### Heading h4
+##### Heading h5
+###### Heading h6
+```
+  
+The above example is rendered as:  
+# Heading h1
+## Heading h2
+### Heading h3
+#### Heading h4
+##### Heading h5
+###### Heading h6
+  
   
 <br>
 
@@ -52,7 +61,8 @@ Write in plain text without additional label to create a paragraph text.
 | This is a paragraph text. | This is a paragraph text. |
   
 - Sometimes html `<p>` tag is also used conventionally to custom-align a paragraph. For example, `<p align="center">This is a center-aligned paragraph</p>`  
-
+  
+  
 <br>
 
 # Horizontal Rules
@@ -200,7 +210,7 @@ Relative links can also be used :
   
 | Example | Rendered as |
 | --- | --- |
-| `[README](./README.md)` | [README](./README.md) |
+| `[README](./README.md)` | [README](https://github.com/SandeepKrSuman/basic-readme-syntax/blob/main/README.md) |
   
 You can optionally add a title for a link. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it within quotes `""` after the URL.  
 
@@ -346,7 +356,9 @@ Take a look at the following examples to create a table:
 | Hi | Hi github |
 | Hey | Hey there |
 ```
+  
 The above example is rendered as:  
+
 | Greetings | Example |
 | --- | --- |
 | Hello | Hello git |
