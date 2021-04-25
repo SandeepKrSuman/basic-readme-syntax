@@ -161,8 +161,8 @@ The above example is rendered as:
 > 
 > ### Opensource is love
 > 
-> star this repo
-> fork this repo
+> 1. star this repo
+> 2. fork this repo
 > 
 > Keep **contributing** to the *opensource*. It's fun.
 > 
