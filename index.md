@@ -338,8 +338,8 @@ One way to use emojis in the readme file is to simply copy and paste them. The o
 :star: this repo
 ```
 The above example is rendered as:  
-😊😂
-😍
+😊😂  
+😍  
 ⭐ this repo
   
   
