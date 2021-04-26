@@ -248,7 +248,7 @@ The following HTML `<img>` tag is also legal:
 <br>
 
 # Lists
-1. **Unordered Lists**  
+(1.) **Unordered Lists**  
 To create an unordered list, add a dash`(-)` or an asterisk`(*)` or a plush sign `(+)` and a space in front of the text.  
 Indent one or more items to create nested list.  
 ```
@@ -277,7 +277,7 @@ The above example is rendered as:
 - fifth item
   
   
-2. **Ordered Lists**  
+(2.) **Ordered Lists**  
 To create an ordered list use number and dot (or period) before text.  
 Indent one or more items to create nested list.  
 
