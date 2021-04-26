@@ -87,7 +87,7 @@ Since it is quite hard to see trailing whitespaces in an editor, HTML `<br>` tag
 <br>
 
 # Emphasis
-1. **BOLD**  
+- **BOLD**  
 Add two asterisks *(more conventionally used)* or underscores before and after a text to make it bold. To make some characters of a text bold in the middle, use two asterisks without spaces before and after the characters (using underscore does not work in this case. So it is a good practise to use asterisks instead of underscore everytime to make a text bold).
   
 | Example | Rendered as |
@@ -96,7 +96,7 @@ Add two asterisks *(more conventionally used)* or underscores before and after a
 | `This word is __also Bold__` | This word is __also Bold__ |
 | `Basic**Readme**Syntax` | Basic**Readme**Syntax |
   
-2. **ITALIC**  
+- **ITALIC**  
 To italicize a text use single asterisk or underscore. Use single asterisk (and not underscore) to italicize a middle text.
   
 | Example | Rendered as |
@@ -105,14 +105,14 @@ To italicize a text use single asterisk or underscore. Use single asterisk (and 
 | `This word is _also Italic_` | This word is _also italic_ |
 | `Basic*Readme*Syntax` | Basic*Readme*Syntax |
   
-3. **STRIKETHROUGH**  
+- **STRIKETHROUGH**  
 For strikingthrough a text use two tilde symbols before and after a text.  
   
 | Example | Rendered as |
 | --- | --- |
 | `This word is ~~strikedthrough~~` | This word is ~~strikedthrough~~ |
   
-4. **Nested Emphasis**  
+- **Nested Emphasis**  
   
 | Example | Rendered as |
 | --- | --- |
