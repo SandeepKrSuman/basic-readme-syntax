@@ -350,14 +350,8 @@ The above example is rendered as:
 | Hey | Hey there |
   
   
-<br>
-
-### Resource
-If you wish to play aorund with what you have learned so far you can try rendering the markdown online on [Dillinger](https://dillinger.io/). It is absolutely free platform.  
-  
+<br>  
   
 ---
-
-<br>
 
 > We have touched almost every part required for creating a functional README.md file. Hope this was helpful. Try creating your first readme with the help of whatever you have learned from here. If this helped you in any way do show some love by starring this repo. Happy coding 😊.
